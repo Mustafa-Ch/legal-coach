@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono ,Inter,Inter_Tight} from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Auth from "@/components/Auth";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,7 +24,7 @@ const inter = Inter({
 const interTight = Inter_Tight({
   variable: "--font-inter-tight",
   subsets: ["latin"],
-  weight: ["300", "400", "600", "900"], // pick weights you need
+  weight: ["300", "400", "600", "900"],
 });
 
 export const metadata: Metadata = {
@@ -37,9 +40,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${interTight.variable} ${inter.variable} ${geistMono.variable} antialiased`}
+        className={`bg-[#FFFFFF] ${geistSans.variable} ${interTight.variable} ${inter.variable} ${geistMono.variable} antialiased`}
       >
+        <Header/>
         {children}
+        <Auth/>
+        <Footer/>
       </body>
     </html>
   );

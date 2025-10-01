@@ -27,42 +27,42 @@ const FAQ = () => {
 
       <div className="flex flex-col ">
         {[1, 2, 3, 4, 5].map(() => (
-          <Accordion
-            type="single"
-            collapsible
-            className="border-t border-[#7585A3] cursor-pointer"
-          >
-            <AccordionItem value="item-1">
-              <AccordionTrigger className="">
-                <div className="flex items-center gap-x-4">
-               
-                  <span className="font-inter mt-5">
-                    How long does it take to complete a divorced case?
-                  </span>
-                </div>
-              </AccordionTrigger>
-              <AccordionContent
-                className="
-    font-inter-tight
-    font-normal
-    text-[13px]
-    leading-[24px]
-    tracking-[0%]
-    align-middle
-    text-[#59595B]
-    rounded-md
-    mb-3
-  "
-              >
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting.
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
+            <Accordion
+              type="single"
+              collapsible
+              className="border-t border-[#7585A3] cursor-pointer"
+            >
+              <AccordionItem value="item-1">
+                <AccordionTrigger className=" hover:no-underline cursor-pointer">
+                  <div className="flex items-center gap-x-4">
+                
+                    <span className="font-inter mt-5">
+                      How long does it take to complete a divorced case?
+                    </span>
+                  </div>
+                </AccordionTrigger>
+                <AccordionContent
+                  className="
+      font-inter-tight
+      font-normal
+      text-[13px]
+      leading-[24px]
+      tracking-[0%]
+      align-middle
+      text-[#59595B]
+      rounded-md
+      mb-3
+    "
+                >
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever since the 1500s, when an unknown printer took a galley
+                  of type and scrambled it to make a type specimen book. It has
+                  survived not only five centuries, but also the leap into
+                  electronic typesetting.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
         ))}
       </div>
     </div>

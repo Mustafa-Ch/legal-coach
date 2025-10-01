@@ -10,14 +10,12 @@ import Pricing from "@/components/Pricing"
 const page = () => {
   return (
     <div className="bg-[#F0F4FA] w-full min-h-screen pt-3">
-      <Header />
+
       <Hero />
       <Features />
       <Pricing/>
       <Advantages/>
       <FAQ/>
-      <Auth />
-      <Footer/>
     </div>
   );
 }
