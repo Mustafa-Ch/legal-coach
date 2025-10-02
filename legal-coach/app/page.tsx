@@ -11,11 +11,11 @@ const page = () => {
   return (
     <div className="bg-[#F0F4FA] w-full min-h-screen pt-3">
 
-      <Hero />
+      {/* <Hero />
       <Features />
       <Pricing/>
-      <Advantages/>
-      <FAQ/>
+      <Advantages bottom="7" left="144px" w="225px"/>
+      <FAQ/> */}
     </div>
   );
 }

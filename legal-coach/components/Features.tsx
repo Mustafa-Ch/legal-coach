@@ -2,7 +2,7 @@
 import Image from "next/image";
 import grid from "../public/imges/grid.png";
 import featuresui from "../public/imges/ui-peace.png";
-import featuresCard from "../public/imges/featuresCard.png";
+import featuresCard from "../public/imges/featuresCard-Photoroom.png";
 import dashboard from "../public/imges/dashboard.png";
 import icons from '../public/imges/icons.png'
 import  add from '../public/imges/add.png'
@@ -80,9 +80,9 @@ const Features = () => {
             automation to advanced research, we've got the hard work covered.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3 gap-5 w-full">
           <div className="flex flex-col space-y-2 col-span-1">
-            <div className="w-[450px] h-[330px] px-7 mx-auto rounded-[32px] bg-[radial-gradient(40.2%_40.2%_at_50%_68.01%,_rgba(241,241,246,0)_0%,_#FFFFFF_100%)] shadow-[0px_4px_4px_0px_#00000040]">
+            <div className="w-full h-[330px] px-7 mx-auto rounded-[32px] bg-[radial-gradient(40.2%_40.2%_at_50%_68.01%,_rgba(241,241,246,0)_0%,_#FFFFFF_100%)] shadow-[0px_4px_4px_0px_#00000040]">
               <p className="font-inter-tight font-medium text-[25px] py-4 w-[60%] leading-[26.2px] tracking-[0%] align-middle text-[#120E14]">
                 Guided Document Drafting Made Simple
               </p>
@@ -90,9 +90,9 @@ const Features = () => {
                 <Image src={featuresui} alt="alt" />
               </div>
             </div>
-            <div className="w-[450px] h-[380px] rounded-[32px] bg-[#F1F1F6] flex flex-col justify-between px-4">
-              <Image src={featuresCard} alt="alt" className="mt-10" />
-              <div className="mb-10 ">
+            <div className="w-full h-[370px] rounded-[32px] bg-[#F1F1F6] flex flex-col  px-4 py-10">
+              <Image src={featuresCard} alt="alt" className="" />
+              <div className="">
                 <h2 className="font-inter font-normal text-[25.5px]  text-[#120E14]">
                   AI document handling
                 </h2>
@@ -111,7 +111,7 @@ const Features = () => {
                   <h5 className="font-inter font-normal text-[14px] leading-[22.4px] tracking-[0%] align-middle text-[#120E14]">
                     Hello, Chris! 👋
                   </h5>
-                  <p className="font-inter font-normal text-[13px] leading-[20.4px] text-[#868589]">
+                  <p className="font-inter font-normal text-[12px] mt-2  text-[#868589]">
                     Please select a question from the "Prompts" library below or
                     write your own question. You can also add context from any
                     of the already existing chat from history
@@ -122,15 +122,15 @@ const Features = () => {
                   </div>
                 </div>
                 <div className="w-[366.63px] h-[40px] self-end bg-[#2258C3] rounded-tl-[20px] rounded-tr-[20px] rounded-br-[8px] rounded-bl-[20px] opacity-100 shadow-[0px_165px_46px_0px_#00000003,0px_106px_42px_0px_#0000000A,0px_59px_36px_0px_#00000026,0px_26px_26px_0px_#00000042,0px_7px_15px_0px_#0000004A] flex justify-center items-center">
-                  <p className="font-inter font-normal text-[14px] leading-[22.4px] text-[#FAFBFE]">
+                  <p className="font-inter font-light text-[13px] leading-[22.4px] text-[#FAFBFE]">
                     What are my right as an employer in NYC?
                   </p>
                 </div>
-                <div className="w-[120px] h-[44px] opacity-100 rounded-tl-[20px] rounded-tr-[20px] rounded-br-[20px] rounded-bl-[8px] bg-[#FBFCFF] flex items-center justify-center text-[#120E14] font-inter font-normal text-[14px] leading-[22.4px]">
+                <div className="w-[100px] h-[33px] opacity-100 rounded-tl-[20px] rounded-tr-[20px] rounded-br-[20px] rounded-bl-[8px] bg-[#FBFCFF] flex items-center justify-center text-[#120E14] font-inter font-light text-[13px] leading-[22.4px]">
                   Respond...
                 </div>
               </div>
-              <div className="mt-4">
+              <div className="mt-2">
                 <h2 className="text-[#120E14] font-inter font-normal text-[25px] leading-[35.2px]">
                   {" "}
                   Ask AI MLC
@@ -144,7 +144,7 @@ const Features = () => {
             </div>
             <div className="flex space-x-2">
               <div className="w-[450px] h-[280px] rounded-[32px] bg-[linear-gradient(180deg,_#2258C3_0%,_#1B2232_100%)] flex flex-col justify-center items-center">
-                <h2 className="font-inter font-normal text-[25.5px]  text-[#FAFBFE] w-[80%] leading-[35.2px]">
+                <h2 className="font-inter font-light text-[23.5px]  text-[#FAFBFE] w-[80%] leading-[35.2px]">
                   SAAS-platform to manage everything
                 </h2>
                 <Image
