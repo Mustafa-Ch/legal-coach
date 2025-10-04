@@ -7,8 +7,16 @@ import box7 from "../public/imges/image (16).png";
 import file from "../public/imges/file.png";
 import box1 from "../public/imges/image (19).png";
 import lines from "../public/imges/Vector → SVG.png";
-
-const Advantages = ({ bottom = 0, left = 0, w = 0 }: any) => {
+interface AdvantagesProps {
+  bottom?: number;
+  left?: number;
+  w?: string | number;
+}
+const Advantages: React.FC<AdvantagesProps> = ({
+  bottom = 0,
+  left = 0,
+  w = 0,
+}) => {
   return (
     <div className="w-full min-h-screen bg-[#FEFEFE] px-4 sm:px-6 lg:px-10 mx-auto flex flex-col gap-5 items-center">
       <div className="mt-10 bg-[#F1F1F6] p-1 pr-3 w-[120px] sm:w-[150px] h-[30px] rounded-[10px] flex items-center gap-x-4">

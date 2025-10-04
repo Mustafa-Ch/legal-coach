@@ -66,9 +66,9 @@ const Features = () => {
                     Hello, Chris! 👋
                   </h5>
                   <p className="font-inter font-light text-[12px] mt-2 text-[#868589]">
-                    Please select a question from the "Prompts" library below or
-                    write your own question. You can also add context from any
-                    of the already existing chat from history.
+                    Please select a question from the &quot;Prompts&quot;
+                    library below or write your own question. You can also add
+                    context from any of the already existing chat from history.
                   </p>
                   <div className="flex items-center justify-center gap-x-3 bg-[#F1F1F6] h-[30px] rounded-[10px] mt-5">
                     <Image src={add} alt="alt" />
