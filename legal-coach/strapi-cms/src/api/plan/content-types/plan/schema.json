@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "plan_config",
+  "info": {
+    "singularName": "plan",
+    "pluralName": "plans",
+    "displayName": "Plans Configuration"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "plans": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plan.plan"
+    }
+  }
+}

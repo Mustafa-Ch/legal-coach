@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_plan_plan",
+  "info": {
+    "displayName": "Plan",
+    "description": "Single subscription plan"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "billingPeriod": {
+      "type": "string",
+      "default": "per month"
+    },
+    "description": {
+      "type": "text"
+    },
+    "isPopular": {
+      "type": "boolean",
+      "default": false
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plan.feature"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs",
+  "info": { "singularName": "faq", "pluralName": "faqs", "displayName": "FAQ" },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "slug": { "type": "uid", "targetField": "title", "required": true },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.question"
+    }
+  }
+}
