@@ -33,9 +33,9 @@ const page = () => {
         </h1>
         <p className="font-inter-tight font-normal w-full lg:w-[23%] text-[10px] sm:text-[12px] md:text-[12px]  text-[#7585A3] text-left">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          industry. Lorem Ipsum has been the industry&apos;s standard dummy text
+          ever since the 1500s, when an unknown printer took a galley of type
+          and scrambled it to make a type specimen book.
         </p>
       </div>
 
@@ -95,14 +95,14 @@ const page = () => {
         <div className="w-full lg:w-[60%] mt-4 lg:mt-0">
           <p className="font-inter-tight font-normal text-[12px] sm:text-[14px] md:text-[14px] leading-[18px]  sm:leading-[20px] md:leading-[20px] text-[#7585A3]">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            industry. Lorem Ipsum has been the industry&apos;s standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book. It has survived
+            not only five centuries, but also the leap into electronic
+            typesetting, remaining essentially unchanged. It was popularised in
+            the 1960s with the release of Letraset sheets containing Lorem Ipsum
+            passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.
           </p>
         </div>
       </div>

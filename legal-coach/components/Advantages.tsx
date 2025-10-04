@@ -31,7 +31,7 @@ const Advantages = ({ bottom = 0, left = 0, w = 0 }: any) => {
               Private
             </h3>
             <p className="font-inter font-normal text-[12px] sm:text-[12px] w-full lg:w-[40%] leading-[20px] sm:leading-[22.4px] text-[#868589]">
-              We stand firm on privacy, ensuring that users' conversations
+              We stand firm on privacy, ensuring that users&apos; conversations
               remain secure and anonymous.
             </p>
           </div>
@@ -40,7 +40,6 @@ const Advantages = ({ bottom = 0, left = 0, w = 0 }: any) => {
           </div>
           <div
             className={`hidden lg:block absolute bottom-${bottom} left-${left} w-[${w}]`}
-          
           >
             <Image src={lines} alt="alt" className="h-auto w-full" />
           </div>

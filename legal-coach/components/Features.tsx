@@ -26,7 +26,8 @@ const Features = () => {
           </h1>
           <p className="font-inter-tight font-medium text-[12px] text-center text-[#120E14] w-full sm:w-[70%] md:w-[50%] lg:w-[40%]">
             Explore features that boost your productivity. From document
-            automation to advanced research, we've got the hard work covered.
+            automation to advanced research, we&apos;ve got the hard work
+            covered.
           </p>
         </div>
 
