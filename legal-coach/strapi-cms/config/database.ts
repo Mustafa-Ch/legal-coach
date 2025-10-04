@@ -9,7 +9,7 @@ export default ({
     bool: (key: string, defaultValue?: boolean) => boolean;
   };
 }) => {
-  const client = env("DATABASE_CLIENT", "sqlite");
+  const client = env("DATABASE_CLIENT", "sqlite") as keyof typeof connections;
 
   const connections = {
     mysql: {
