@@ -46,11 +46,11 @@ const Advantages: React.FC<AdvantagesProps> = ({
           <div className="mt-4 md:mt-0">
             <Image src={box1} alt="alt" className="max-w-full h-auto" />
           </div>
-          <div
+          {/* <div
             className={`hidden lg:block absolute bottom-${bottom} left-${left} w-[${w}]`}
           >
             <Image src={lines} alt="alt" className="h-auto w-full" />
-          </div>
+          </div> */}
         </div>
 
         <div className="lg:col-span-4 md:col-span-2 bg-[#F0F4FA] border rounded-3xl p-4 sm:p-6 flex flex-col justify-between h-auto lg:h-[300px]">
